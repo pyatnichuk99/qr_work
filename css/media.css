@@ -1,0 +1,100 @@
+@media screen and (max-width: 1280px) {
+  .header-image {
+    width: 800px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header-block__title h1 {
+    font-size: 46px;
+  }
+
+  .header-image {
+    width: 740px;
+    height: auto;
+  }
+
+  .advantages-item__text {
+    width: 100%;
+  }
+
+  .accordion-button p {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header-image {
+    width: 680px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header-block__title {
+    margin-top: 60px;
+  }
+  .header-block__button {
+    margin-bottom: 80px;
+  }
+
+  .header-image {
+    position: static;
+    width: auto;
+  }
+
+  .order-item__title h3 {
+    width: 100%;
+  }
+  .order-item__text {
+    width: 100%;
+  }
+  .order-item__image {
+    width: 100 .order-item__image;
+  }
+
+  .find-image {
+    width: 100%;
+  }
+
+  .accordion-button p {
+    width: calc(100% - 50px);
+  }
+  .accordion-body {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header-block__title h1 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .header-block__minor p {
+    text-align: center;
+  }
+  .header-block__minor p br {
+    display: none;
+  }
+  .header-block__button button {
+    width: 100%;
+  }
+
+  .tutorial-item__text {
+    font-size: 15px;
+  }
+
+  .minor-text p {
+    font-size: 18px;
+  }
+
+  .advantages-item__text {
+    font-size: 15px;
+  }
+  .advantages-item__image {
+    width: 280px;
+    height: 280px;
+  }
+
+  .order-image {
+    width: 100%;
+  }
+}
